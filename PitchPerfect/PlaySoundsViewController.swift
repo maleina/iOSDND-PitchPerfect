@@ -10,6 +10,8 @@ import AVFoundation
 
 class PlaySoundsViewController: UIViewController {
     
+    // MARK: Properties
+    
     var recordedAudioURL: URL!
     var audioFile:AVAudioFile!
     var audioEngine:AVAudioEngine!
@@ -54,11 +56,27 @@ class PlaySoundsViewController: UIViewController {
     @IBAction func stopButtonPressed(_ sender: AnyObject) {
         stopAudio()
     }
+    
+    // MARK: Lifecycle Event Overrides
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Fix so that buttons don't stretch
+        snailButton.contentMode = .center
+        snailButton.imageView?.contentMode = .scaleAspectFit
+        chipmunkButton.contentMode = .center
+        chipmunkButton.imageView?.contentMode = .scaleAspectFit
+        rabbitButton.contentMode = .center
+        rabbitButton.imageView?.contentMode = .scaleAspectFit
+        vaderButton.contentMode = .center
+        vaderButton.imageView?.contentMode = .scaleAspectFit
+        echoButton.contentMode = .center
+        echoButton.imageView?.contentMode = .scaleAspectFit
+        reverbButton.contentMode = .center
+        reverbButton.imageView?.contentMode = .scaleAspectFit
+        
+        // Do additional setup after loading the view.
         setupAudio()
     }
     

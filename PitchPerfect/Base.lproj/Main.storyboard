@@ -25,13 +25,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpy-fK-SeG">
-                                <rect key="frame" x="143.66666666666666" y="542" width="105.66666666666666" height="20.333333333333371"/>
+                                <rect key="frame" x="143.66666666666666" y="540" width="105.66666666666666" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYm-47-1oR">
-                                <rect key="frame" x="164.66666666666666" y="582.33333333333337" width="64" height="64"/>
+                                <rect key="frame" x="164.66666666666666" y="568.33333333333337" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="Dgg-OK-7K4"/>
                                     <constraint firstAttribute="width" constant="64" id="UKq-BU-jP6"/>
@@ -47,9 +47,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ita-iF-z7c" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8JM-5c-GpS"/>
-                            <constraint firstItem="vpy-fK-SeG" firstAttribute="top" secondItem="ita-iF-z7c" secondAttribute="bottom" constant="4" id="KGK-69-OBt"/>
+                            <constraint firstItem="vpy-fK-SeG" firstAttribute="top" secondItem="ita-iF-z7c" secondAttribute="bottom" constant="2" id="KGK-69-OBt"/>
                             <constraint firstItem="zYm-47-1oR" firstAttribute="centerX" secondItem="vpy-fK-SeG" secondAttribute="centerX" id="b2y-Cm-ep7"/>
-                            <constraint firstItem="zYm-47-1oR" firstAttribute="top" secondItem="vpy-fK-SeG" secondAttribute="bottom" constant="20" id="fzM-It-P4y"/>
+                            <constraint firstItem="zYm-47-1oR" firstAttribute="top" secondItem="vpy-fK-SeG" secondAttribute="bottom" constant="8" id="fzM-It-P4y"/>
                             <constraint firstItem="ita-iF-z7c" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mFD-fy-cY0"/>
                             <constraint firstItem="vpy-fK-SeG" firstAttribute="centerX" secondItem="ita-iF-z7c" secondAttribute="centerX" id="rN3-gm-K7j"/>
                         </constraints>
