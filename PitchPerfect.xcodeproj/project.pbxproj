@@ -67,8 +67,8 @@
 				B87009BE2A3782E70040C324 /* Assets.xcassets */,
 				B87009C02A3782E70040C324 /* LaunchScreen.storyboard */,
 				B8E292982A3F4F9E00F79123 /* PlaySoundsViewController.swift */,
-				B87009C32A3782E70040C324 /* Info.plist */,
 				B8CB29A42A3F9840001631E3 /* playsoundsviewcontroller-audio.swift */,
+				B87009C32A3782E70040C324 /* Info.plist */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
